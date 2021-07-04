@@ -16,8 +16,15 @@ Abre la terminal y cambia el modo del script anterior
 chmod +x ~/autostart.sh
 ```
 ## Colocalo en el arranque
+En una terminal abre crontab
 ```
+crontab -e
+```
+al final escribe la siguiente línea
+```
+@reboot cd /home/pi && ./autostart.sh
 ```
 ## Crea un código en SuperCollider
 ```
+s.waitForBoot{{SineOsc.ar([400, 440], 0, 0.5)}.play}
 ```
