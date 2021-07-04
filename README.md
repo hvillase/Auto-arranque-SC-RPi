@@ -30,6 +30,7 @@ s.waitForBoot{{SineOsc.ar([400, 440], 0, 0.5)}.play}
 ```
 ## Haz un reboot de la raspberrypi
 ```
+sudo reboot
 ```
 El sonido comienza si todo salío bien.
 
