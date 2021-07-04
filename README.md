@@ -28,3 +28,13 @@ al final escribe la siguiente línea
 ```
 s.waitForBoot{{SineOsc.ar([400, 440], 0, 0.5)}.play}
 ```
+## Haz un reboot de la raspberrypi
+```
+```
+El sonido comienza si todo salío bien.
+
+Para parar el sonido escribe en la terminal la siguiente línea:
+```
+killall jackd sclang scsynth
+```
+
