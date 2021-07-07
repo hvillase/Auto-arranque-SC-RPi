@@ -39,7 +39,7 @@ Para parar el sonido escribe en la terminal la siguiente línea:
 ```
 killall jackd sclang scsynth
 ```
-Esto se supone que corre en una RPi con monitor HDMI conectado. Si quieres iniciar una RPi 4 sin el monitor escribe la siguiente línea en el /boot/config.txt. En una terminal tecela:
+Esto se supone que corre en una RPi con monitor HDMI conectado. Si quieres iniciar una RPi 4 sin el monitor escribe la siguiente línea en el /boot/config.txt. En una terminal teclea:
 ```
 sudo nano /boot/config.txt
 ```
