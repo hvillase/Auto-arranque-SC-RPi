@@ -33,7 +33,7 @@ s.waitForBoot{{SineOsc.ar([400, 440], 0, 0.5)}.play}
 ```
 sudo reboot
 ```
-El sonido comienza si todo salío bien.
+Espera a que arranque la RPi y si el sonido comienza a sonar todo salió bien.
 
 Para parar el sonido escribe en la terminal la siguiente línea:
 ```
