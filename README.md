@@ -20,7 +20,7 @@ En una terminal abre crontab. Si es la primera vez te pedira que elijas el edito
 ```
 crontab -e
 ```
-Al final del documento que se abre escribe la siguiente línea.
+Una vez que escojas el editor, escribe la siguiente línea al final del documento que se abre.
 ```
 @reboot cd /home/pi && ./autostart.sh
 ```
