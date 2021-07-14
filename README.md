@@ -27,7 +27,7 @@ Una vez que escojas el editor, escribe la siguiente línea al final del document
 ## Crea un código en SuperCollider
 En el script de SuperCollider llamado micodigo.scd puedes poner este código, que hará sonar dos frecuencias al iniciar la Raspberry Pi. Puedes hacer este script con nano.
 ```
-s.waitForBoot{{SineOsc.ar([400, 440], 0, 0.5)}.play}
+s.waitForBoot{{SinOsc.ar([400, 440], 0, 0.5)}.play}
 ```
 ## Haz un reboot de la Raspberrypi
 ```
