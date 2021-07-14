@@ -1,5 +1,5 @@
 # Auto-arranque-SC-RPi
-Inicio automático de SuperCollider en Raspberry Pi OS, basado en el archivo de compilación de SuperCollider para Raspberry Pi. Probado en Raspberry Pi 4 con Raspberry OS Desktop.
+Inicio automático de SuperCollider en Raspberry Pi OS, basado en el archivo de compilación de SuperCollider para Raspberry Pi. Probado en una Raspberry Pi 4 con Raspberry OS Desktop.
 
 ## Crea un script bash
 Lo que hace este archivo es indicar en el arranque que busque la ruta donde está instalado SuperCollider, se espera 10 segundos y corre el archivo de código llamado micodigo.scd. 
