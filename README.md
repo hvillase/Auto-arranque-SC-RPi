@@ -16,7 +16,7 @@ Abre la terminal y cambia el modo del script anterior.
 chmod +x ~/autostart.sh
 ```
 ## Colocalo en el arranque
-En una terminal abre crontab.
+En una terminal abre crontab. Si es la primera vez te pedira que elijas el editor deseado, la opción 1 es nano, es la mas fácil.
 ```
 crontab -e
 ```
