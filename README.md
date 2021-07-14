@@ -5,7 +5,7 @@ Inicio automático de SuperCollider en Raspberry Pi OS, basado en el archivo de 
 Lo que hace este archivo es indicar en el arranque que busque la ruta donde está instalado SuperCollider, se espera 10 segundos y corre el archivo de código llamado micodigo.scd. 
 ```
 #!/bin/bash
-export PATH=/usr/locl/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 export DISPLAY=:0.0
 sleep 10
 sclang micodigo.scd
@@ -39,7 +39,7 @@ Para parar el sonido escribe en la terminal la siguiente línea:
 ```
 killall jackd sclang scsynth
 ```
-Esto se supone que corre en una RPi con monitor HDMI conectado. Si quieres iniciar una RPi 4 sin el monitor escribe la siguiente línea en el /boot/config.txt. En una terminal teclea:
+Este método se supone que corre en una RPi con un monitor HDMI conectado. Si quieres iniciar una RPi 4 con el OS Desktop sin el monitor coenctado escribe la siguiente línea en el /boot/config.txt. En una terminal teclea:
 ```
 sudo nano /boot/config.txt
 ```
